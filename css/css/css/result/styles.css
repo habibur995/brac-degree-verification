@@ -1,0 +1,54 @@
+/* RESULTS STYLES */
+.results-section{
+    padding:40px;
+    text-align:center;
+}
+
+.card{
+    border:2px solid #1e40af;
+    padding:28px;
+    border-radius:10px;
+    max-width:420px;
+    margin:auto;
+    background:#fff;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+.verified{
+    color:#1e7d1e;
+    margin-bottom:12px;
+}
+.card p{
+    font-size:1rem;
+    margin:6px 0;
+}
+.cgpa{
+    font-weight:700;
+    color:#1e40af;
+}
+.qr-code{
+    width:120px;
+    margin:18px 0;
+}
+#downloadPdf{
+    background:#1e40af;
+    color:#fff;
+    padding:10px 14px;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+}
+#downloadPdf:hover{
+    background:#153580;
+}
+.back-btn{
+    margin-top:20px;
+    background:#666;
+    color:#fff;
+    padding:10px 14px;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+}
+.back-btn:hover{
+    background:#444;
+}
