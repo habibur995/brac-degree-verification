@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Verification Results</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<section class="results-section">
+    <div class="card">
+        <h2 class="verified">✔️ Verified</h2>
+        <p><strong>Name:</strong> Mohammad Sohel Rana</p>
+        <p><strong>Registration:</strong> 03102007</p>
+        <p><strong>Date of Birth:</strong> October 15, 1984</p>
+        <p><strong>Degree Awarded:</strong> Bachelor of Business Administration</p>
+        <p><strong>Sessions:</strong> 2003 – 2007</p>
+        <p><strong>Date of Completion:</strong> June 15, 2007</p>
+        <p><strong>Total Credits:</strong> 132</p>
+        <p><strong>CGPA:</strong>
+            <span class="cgpa">3.64 / 4.00</span>
+        </p>
+
+        <img src="img/qr-placeholder.png" alt="Verification QR" class="qr-code">
+        <button id="downloadPdf">⬇️ Download PDF</button>
+    </div>
+
+    <button id="backBtn" class="back-btn">🔙 Back to Search</button>
+</section>
+
+<script>
+document.getElementById("backBtn").addEventListener("click", () => {
+    history.back();
+});
+
+document.getElementById("downloadPdf").addEventListener("click", () => {
+    alert("PDF download started (demo).");
+});
+</script>
+
+</body>
+</html>
