@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Degree Verification - BRAC University</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">
+    <img src="img/brac-logo.png" alt="BRAC University Logo" class="logo">
+</header>
+
+<!-- SEARCH SECTION -->
+<section class="search-section">
+    <h1 class="title">Verify Academic Degrees Online</h1>
+    <p class="subtitle">Enter a registration number to verify academic records.</p>
+
+    <div class="search-box">
+        <input type="text" id="regNumber" placeholder="Enter Registration Number">
+        <button id="searchBtn">
+            <span class="icon">🔍</span> Search
+        </button>
+    </div>
+
+    <p id="errorMsg" class="error-msg"></p>
+
+    <div id="loader" class="loader hidden"></div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <p>Contact: registry@bracu.ac.bd | +880 1234 567890</p>
+    <p>&copy; 2026 BRAC University. All rights reserved.</p>
+</footer>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
